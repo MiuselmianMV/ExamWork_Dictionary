@@ -41,6 +41,7 @@ namespace ExamWork_Dictionary
                 Translations.Remove(translation);
         }
 
+
         public static bool operator == (Word left, Word right)
         {
             return left.Self == right.Self;
